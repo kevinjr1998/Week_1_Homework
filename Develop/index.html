@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon</title> /* twxt xhanged from 'website'*/
+    <title>Horiseon</title> <!-- text changed from 'website' -->
 </head>
 
 <body>
-    <header> /* changed from div class header tag */
+    <header> <!-- changed from div class header tag  --> 
         <h1>Horiseon</h1>
-        <links>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,18 +22,18 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </links>
-    </header>
-    <div class="hero"></div>
-    <content>
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+        </nav>
+    </header> 
+    <section class="image" alt="People sitting around table looking at documents"></section> <!-- TODO: find out how to add alt tag to css images-->
+    <content> <!-- changed the div tags to section tags, deleted the id tags as the tags already have a class and no id tags set in css-->
+        <section class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Book that says 'SEO' sitting on desk with laptop, pens and coffee." />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        </section>
+        <div class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -71,12 +71,12 @@
             </p>
         </div>
     </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+    <footer> <!-- changed to footer tag from foooter class-->
+        <h4>Made with ❤️️ by Horiseon</h4> <!-- changed from h2 to h4, so heaters flow sequentially-->
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
