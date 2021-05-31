@@ -75,7 +75,8 @@ content {
     margin-left: 20px;
 }
 
-aside {
+/* div element with class benefit changed to aside tag*/
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,15 +87,12 @@ aside {
     background-color: #2589bd;
 }
 
-
-
-
-.benefit-lead {
+#benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+#benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -104,12 +102,12 @@ aside {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+#benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+#benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -119,13 +117,13 @@ aside {
     text-align: center;
 }
 
-.benefit-lead img {
+#benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+#benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
