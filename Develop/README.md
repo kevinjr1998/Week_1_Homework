@@ -5,6 +5,7 @@ The main purpose of this task was to improve the accesibility of both the source
 
 ## Screenshot of webpage
 
-[Screenshot](./assets/Homework-Screenshot.jpeg)
+[Screenshot](./assets/images/Homework-Screenshot.jpeg)
 
 
+[Link to Website]()
