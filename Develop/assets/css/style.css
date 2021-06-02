@@ -106,8 +106,7 @@ content h2 {
 
 
 
-/* div element with class benefit changed to aside element with benefits id tag*/
-/*consolidated id tags in aside element so that they follow the flow shown  on the html document */
+
 /* sets properties of box that floats to the right of the contents section */ 
 
 /* css within aside element all consolidated within similar respective classes */
@@ -138,6 +137,10 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+
+
+/* sets css for the page footer */
+
 
 footer {
     padding: 30px;
